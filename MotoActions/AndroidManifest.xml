@@ -88,6 +88,15 @@
             android:theme="@style/MotoActions"
             android:exported="true">
         </activity>
+		
+        <activity
+            android:name="com.moto.actions.dirac.DiracActivity"
+            android:label="@string/dirac_title"
+            android:theme="@style/MotoActions">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
 
     </application>
 
