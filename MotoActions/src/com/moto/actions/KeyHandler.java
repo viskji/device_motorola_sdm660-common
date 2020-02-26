@@ -473,39 +473,39 @@ public class KeyHandler implements DeviceKeyHandler {
          return true;
             }
 
-	    public boolean canHandleKeyEvent(KeyEvent event) {
-		int scanCode = event.getScanCode();
+        public boolean canHandleKeyEvent(KeyEvent event) {
+        int scanCode = event.getScanCode();
 
-		if (DEBUG) {
-		    Log.d(TAG, "DEBUG: action=" + event.getAction()
-                   	    + ", flags=" + event.getFlags()
+        if (DEBUG) {
+            Log.d(TAG, "DEBUG: action=" + event.getAction()
+                        + ", flags=" + event.getFlags()
                             + ", keyCode=" + event.getKeyCode()
-			    + ", scanCode=" + event.getScanCode()
-			    + ", metaState=" + event.getMetaState()
-			    + ", repeatCount=" + event.getRepeatCount());
-		}
+                + ", scanCode=" + event.getScanCode()
+                + ", metaState=" + event.getMetaState()
+                + ", repeatCount=" + event.getRepeatCount());
+        }
 
-		boolean isFPScanCode = ArrayUtils.contains(sSupportedFPGestures, scanCode);
+        boolean isFPScanCode = ArrayUtils.contains(sSupportedFPGestures, scanCode);
                 if (!isFPScanCode) {
-		    return false;
-		}
+            return false;
+        }
 
-		return true;
-	    }
+        return true;
+        }
 
-	    public boolean isCameraLaunchEvent(KeyEvent event) {
-	        return false;
-	    }
+        public boolean isCameraLaunchEvent(KeyEvent event) {
+            return false;
+        }
 
-	    public boolean isWakeEvent(KeyEvent event){
-		return false;
-	    }
+        public boolean isWakeEvent(KeyEvent event){
+        return false;
+        }
 
-	    public boolean isDisabledKeyEvent(KeyEvent event) {
-		return false;
-	    }
+        public boolean isDisabledKeyEvent(KeyEvent event) {
+        return false;
+        }
 
-	    public Intent isActivityLaunchEvent(KeyEvent event) {
+        public Intent isActivityLaunchEvent(KeyEvent event) {
                 return null;
 
     }
