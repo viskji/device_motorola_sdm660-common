@@ -65,20 +65,6 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:title="@string/equalizer">
-        <Preference
-        android:key="dirac"
-        android:title="@string/dirac_title"
-        android:summary="@string/dirac_summary"
-        android:icon="@drawable/xiaomi"
-        android:persistent="false" >
-           <intent 
-                android:targetPackage="com.moto.actions"
-                android:targetClass="com.moto.actions.dirac.DiracActivity" />
-        </Preference>
-     </PreferenceCategory>
-
-    <PreferenceCategory
         android:title="@string/extrasheader">
         <ListPreference
         android:key="spectrum"
