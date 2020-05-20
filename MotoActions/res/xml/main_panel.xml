@@ -85,14 +85,4 @@
         android:title="@string/about">
     </PreferenceCategory>
 
-   <PreferenceCategory
-        android:key="tetro"
-        android:title="@string/tetro">
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:key="xuxu"
-        android:title="@string/xuxu">
-    </PreferenceCategory>
-
 </PreferenceScreen>
