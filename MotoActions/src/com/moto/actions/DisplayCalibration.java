@@ -88,7 +88,7 @@ public class DisplayCalibration extends PreferenceActivity implements
         setContentView(R.layout.display_cal);
 
         ImageView imageView = (ImageView) findViewById(R.id.calibration_pic);
-        imageView.setImageResource(R.drawable.calibration_png);
+        imageView.setImageResource(R.drawable.image4);
 
         addPreferencesFromResource(R.xml.display_calibration);
 

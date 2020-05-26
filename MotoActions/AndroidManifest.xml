@@ -23,8 +23,7 @@
         android:allowBackup="true"
         android:label="@string/moto_actions_title"
         android:icon="@drawable/king"
-        android:summary="@string/moto_actions_summary"
-        android:persistent="true">
+        android:theme="@style/MotoActions">
 
         <provider
             android:name=".MotoActionsSearchIndexablesProvider"
@@ -73,6 +72,9 @@
                 android:name="com.android.settings.category"
                 android:value="com.android.settings.category.ia.homepage" />
             <meta-data
+                 android:name="com.android.settings.bg.hint"
+                android:resource="@color/homepage_moto_background" /> 
+	    <meta-data
                 android:name="com.android.settings.icon"
                 android:resource="@drawable/ic_settings_gestures_dashboard" />
             <meta-data
@@ -83,7 +85,7 @@
         <activity
             android:name=".GestureSettingsActivity"
             android:label="@string/device_gestures_title"
-            android:theme="@style/MotoActions">
+             android:theme="@style/MotoActions">
         </activity>
 
         <activity
@@ -100,13 +102,10 @@
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-
 	<activity
             android:name=".ScreenOffGestureSettingsActivity"
             android:label="@string/screen_off_gestures_title"
             android:theme="@style/MotoActions">
         </activity>
-        
-    </application>
-
+  </application>
 </manifest>

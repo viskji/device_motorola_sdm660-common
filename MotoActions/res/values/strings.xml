@@ -17,12 +17,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Title and summary -->
-    <string name="moto_actions_title">Device Settings</string>
-    <string name="moto_actions_summary">Moto actions powered by team deluxe</string>
+    <string name="moto_actions_title">Moto Actions</string>
+    <string name="moto_actions_summary">Moto Gestures</string>
 
     <!-- Device gestures -->
-    <string name="device_gestures_title">Device gestures</string>
-    <string name="device_gestures_summary">Manage device gestures</string>
+    <string name="device_gestures_title">Moto Actions</string>
+    <string name="device_gestures_summary">Moto Gestures</string>
 
     <!-- Ambient display gestures -->
     <string name="ambient_display_manage_summary">Manage ambient display gestures</string>
@@ -47,6 +47,8 @@
     <string name="fingerprint_gestures_screenoff_title">Fingerprint gestures when screen off</string>
     <string name="fingerprint_gestures_screenoff_summary">Use fingerprint gestures when screen off.\n\nFingerprint unlocking must be disabled to use this feature.</string>
     <string name="fingerprint_actions_screenoff">Actions with screen off</string>
+
+    <string name="sud">submenu</string>
 
     <!-- Actions -->
     <string name="action_none">None</string>
@@ -90,6 +92,13 @@
    <string name="haptic_feedback">Haptic feedback</string>
    <string name="haptic_feedback_summary">Vibrate when a touchscreen gesture is detected</string>
 
+    <!-- Dirac settings -->
+    <!-- Label for feature switch [CHAR LIMIT=30] -->
+    <string name="switch_bar_on">On</string>
+
+    <!-- Label for feature switch [CHAR LIMIT=30] -->
+    <string name="switch_bar_off">Off</string>
+
     <!-- Spectrum Profiles -->
     <string name="spectrum_title">Kernel Profile</string>
     <string name="spectrum_summary">Choose your kernel profile</string>
@@ -98,10 +107,13 @@
     <!-- Headers -->
     <string name="displayheader">Display</string>
     <string name="gesturesheader">Gestures</string>
-    <string name="extrasheader">Extras</string>
+    <string name="extrasheader">Kernel Tweaks</string>
 
     <!-- QS tile title -->
     <string name="dirac_qs_tile_title">Dirac Sound</string>
+
+    <string name="part_title">moto actions sub menu</string>
+    <string name="part_summary">lab.seba3567</string>
 
     <!-- Kcal -->
     <string name="kcal_title">Display Calibration</string>
@@ -131,7 +143,14 @@
     <string name="extreme_amoled">Extreme Amoled</string>
     <string name="warm_amoled">Warm Amoled</string>
     <string name="hybrid_mamba">Hybrid Mamba</string>
-    
-    <string name="about">Moto Actions rework by @seba_3567,@trpsl,@cool585 </string>
 
+    <!-- Omani Themes -->
+    <string name="theme_select_title">More options</string>
+    <string name="theme_select_summary">more feactures</string>
+    
+    <string name="audio_title">Audio</string>
+
+   <string name="equalizer">Sound</string>
+   
+   <string name="set_on_boot">Set On Boot</string>
 </resources>

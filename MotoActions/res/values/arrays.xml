@@ -14,17 +14,23 @@
 <resources>
     <!-- spectrum profiles -->
     <string-array name="spectrum_profiles">
+        <item>Low latency</item>
         <item>Balance</item>
-        <item>Battery</item>
+        <item>Battery save</item>
+        <item>Ultra battery save</item>
         <item>Performance</item>
-        <item>Gaming(oc)</item>
+        <item>Gaming performance</item>
+        <item>Gaming low latency</item>
     </string-array>
 
     <string-array name="spectrum_values">
         <item>0</item>
+        <item>5</item>
         <item>2</item>
+        <item>6</item>
         <item>1</item>
         <item>3</item>
+        <item>4</item>
     </string-array>
 
 

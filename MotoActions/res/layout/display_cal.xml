@@ -15,7 +15,7 @@
             android:id="@+id/calibration_pic"
             android:layout_width="match_parent"
             android:layout_height="265dp"
-            android:src="@drawable/calibration_png" />
+            android:src="@drawable/image4" />
         <com.moto.actions.util.NonScrollListView
             android:id="@android:id/list"
             android:layout_width="match_parent"
